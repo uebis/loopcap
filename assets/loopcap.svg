@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="LoopCap icon">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f6f9fc"/>
+      <stop offset="100%" stop-color="#dfeaf6"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="20" width="216" height="216" rx="56" fill="url(#bg)" stroke="#bfd1e5" stroke-width="8"/>
+  <rect x="56" y="72" width="144" height="112" rx="24" fill="#ffffff" stroke="#d4e0ec" stroke-width="6"/>
+  <circle cx="86" cy="103" r="12" fill="#eb6b5a"/>
+  <circle cx="116" cy="103" r="12" fill="#f3c14b"/>
+  <circle cx="146" cy="103" r="12" fill="#62c554"/>
+  <path d="M113 124 L164 154 L113 184 Z" fill="#2b4e72"/>
+  <rect x="76" y="198" width="104" height="14" rx="7" fill="#c7d7e8"/>
+</svg>

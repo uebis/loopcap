@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=LoopCap
+Comment=Record screen snippets to GIF on Fedora
+Exec=/home/uebis/Documentos/Programas/LiceCap/run.sh
+Icon=/home/uebis/Documentos/Programas/LiceCap/assets/loopcap.svg
+Terminal=false
+Categories=AudioVideo;Recorder;
+Keywords=gif;record;screen;capture;loopcap;
+StartupNotify=true

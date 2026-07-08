@@ -1,7 +1,6 @@
 name: Bug Report
 description: Reportar um bug encontrado
 title: "[Bug]: "
-type: "bug"
 
 body:
   - type: textarea

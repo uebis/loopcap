@@ -1,0 +1,59 @@
+name: Bug Report
+description: Reportar um bug encontrado
+title: "[Bug]: "
+type: "bug"
+
+body:
+  - type: textarea
+    id: bug-details
+    attributes:
+      label: Bug Details
+      description: Preencha todos os campos abaixo.
+      value: |
+        Description:
+
+
+        Link da página onde ocorre o erro:
+
+
+        Repro Steps:
+        1.
+        2.
+        3.
+
+        Example:
+
+
+        Expected result:
+    validations:
+      required: true
+
+  - type: dropdown
+    id: incident
+    attributes:
+      label: Incident
+      description: Se o ambiente for Production, informe se isso gerou incidente.
+      options:
+        - "No"
+        - "Yes"
+        - "Not applicable"
+    validations:
+      required: true
+
+  - type: input
+    id: build
+    attributes:
+      label: Build / Version details
+      placeholder: ex. v1.2.3 / commit hash / build number
+
+  - type: input
+    id: discord-thread-link
+    attributes:
+      label: Discord thread link
+      placeholder: ex. https://discord.com/channels/...
+
+  - type: input
+    id: milvus-link
+    attributes:
+      label: Milvus link
+      placeholder: ex. https://milvus.com/...
